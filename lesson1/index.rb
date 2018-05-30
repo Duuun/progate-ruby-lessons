@@ -30,3 +30,18 @@ if score > 80
   puts "よくできました"
 end
 
+#比較演算子
+score = 100
+if score == 100
+  puts "満点です"
+end
+
+if score != 100
+  puts "満点ではありません"
+end
+
+#条件の組み合わせ
+score = 96
+if score >= 95 && score <= 99
+  puts "高得点です！次は満点を目指しましょう。！"
+end
