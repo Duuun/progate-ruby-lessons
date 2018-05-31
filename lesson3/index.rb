@@ -31,3 +31,11 @@ if shopping_free?(3000)
 else
   puts "追加で送料をいただきます"
 end
+
+# キーワード引数
+def buy(item:, price:, count:)
+  puts "#{item}を#{count}台のお買い上げです"
+  puts "合計金額は#{price * count}円です"
+end
+
+buy(item:"テレビ", price:15000, count:2)
